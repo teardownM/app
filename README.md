@@ -1,29 +1,18 @@
-<p align="center">
-  <img src="static/sveltekit-electron.svg" />
-</p>
+# TeardownM Client
 
-# Sveltekit + Electron
-
-Minimal [Sveltekit](https://github.com/sveltejs/kit#readme) + [Electron](https://www.electronjs.org/) starter template.
+This is the server browser for TeardownM.
 
 <br />
 
 ## Getting Started
-> *Feel free to substitute `npm` with `pnpm` or `yarn`.
 
-|         |                                             |
-| ------- | ------------------------------------------- |
-| Clone   | · `npx degit fractalhq/sveltekit-electron ` |
-| Install | · `npm install`                             |
-| Develop | · `npm run dev`                             |
-| Build   | · `npm run build`                           |
-
+|         |                    |
+| ------- | ------------------ |
+| Install | · `yarn install`   |
+| Develop | · `yarn run dev`   |
+| Build   | · `yarn run build` |
 
 <br />
-
-<p align="center">
-  <img src="screenshot.png" />
-</p>
 
 ## Recommended IDE Setup
 
