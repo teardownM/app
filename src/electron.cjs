@@ -2,6 +2,7 @@ const windowStateManager = require('electron-window-state');
 const contextMenu = require('electron-context-menu');
 const { app, BrowserWindow } = require('electron');
 const serve = require('electron-serve');
+const { shell } = require('electron');
 
 try {
 	require('electron-reloader')(module);
@@ -51,6 +52,11 @@ function createWindow() {
 
 	mainWindow.on('close', () => {
 		windowState.saveState(mainWindow);
+	});
+
+	mainWindow.webContents.on('new-window', function (event, url) {
+		event.preventDefault();
+		shell.openExternal(url);
 	});
 
 	return mainWindow;

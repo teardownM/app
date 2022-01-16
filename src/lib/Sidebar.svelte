@@ -3,9 +3,17 @@
 
 	<div class="sidebar__info">
 		<div class="sidebar__info--socials">
-			<img src="/discord.svg" width="32" alt="Discord Logo" draggable="false" />
-			<img src="/github.svg" width="32" alt="Discord Logo" draggable="false" />
-			<img src="/steam.svg" width="32" alt="Discord Logo" draggable="false" />
+			<a href="https://discord.gg/dUJfexwt" target="_blank">
+				<img src="/discord.svg" width="32" alt="Discord Logo" draggable="false" />
+			</a>
+
+			<a href="https://github.com/alexandargyurov/TeardownNakama" target="_blank">
+				<img src="/github.svg" width="32" alt="Discord Logo" draggable="false" />
+			</a>
+
+			<a href="https://steamcommunity.com/groups/teardownM" target="_blank">
+				<img src="/steam.svg" width="32" alt="Discord Logo" draggable="false" />
+			</a>
 		</div>
 
 		<div class="sidebar__info--contact">
